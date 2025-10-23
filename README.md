@@ -14,13 +14,14 @@
 ## Estructura del repositorio
 
  lista-sin-duplicados/ 
+ 
 │
 
 ├── README.md
 
-└── src/
+└── SRC/
 
-└── eliminar_duplicados.pl
+└──ELIMINAR_DUPLICADOS.pl
 
 
   
