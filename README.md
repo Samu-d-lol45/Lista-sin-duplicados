@@ -1,17 +1,28 @@
 #  PROYECTO-IA:
 
 # Lista-sin-duplicados
- 
- Este proyecto contiene una implementación en **Prolog** del predicado `lista-sin-duplicados`, el cual toma una lista y devuelve otra sin elementos repetidos, conservando el orden original.
+  Eliminar Elementos Duplicados en Prolog
 
-## Caracterización del proyecto
+## Descripción
+Este proyecto contiene una implementación en Prolog del predicado `eliminar_duplicados/2` que elimina elementos duplicados de una lista manteniendo el orden relativo de los elementos.
 
-- Mantiene el orden de aparición de los elementos.
-- Utiliza recursión y predicado para verificar duplicados.
-- Código limpio y documentado.
-- Probado con varios ejemplos de listas.
+## Características de la Solución
 
-## Estructura del repositorio
+### Versión Principal
+- **Predicado**: `eliminar_duplicados/2`
+- **Parámetros**: 
+  - `ListaOriginal`: Lista de entrada con posibles duplicados
+  - `ListaSinDuplicados`: Lista resultante sin duplicados
+- **Comportamiento**: Mantiene solo la primera aparición de cada elemento
+- **Orden**: Preserva el orden relativo de los elemento
+
+### Casos de Prueba Incluidos
+- Lista vacía
+- Lista sin duplicados
+- Lista con duplicados consecutivos y no consecutivos
+- Verificación del orden relativo
+  
+## Estructura del proyecto 
 
  lista-sin-duplicados/ 
  
