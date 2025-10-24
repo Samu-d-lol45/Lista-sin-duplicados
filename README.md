@@ -1,6 +1,7 @@
 #  PROYECTO-IA:
-`AUTOR: *Samuel David Martínez Rodríguez*`
-`Fecha: *23/10/2025* ` 
+`AUTOR:Samuel David Martínez Rodríguez`
+
+`Fecha:23/10/2025 ` 
 
 # Lista-sin-duplicados
   Eliminar Elementos Duplicados en Prolog
