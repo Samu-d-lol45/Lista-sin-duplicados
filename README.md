@@ -2,6 +2,10 @@
 `AUTOR:Samuel David Martínez Rodríguez`
 
 `Fecha:23/10/2025 ` 
+ 
+ ## Enlace de la ejecución del proyecto:
+ 
+https://drive.google.com/file/d/1pNlsE8ukau1GEMVGYZnJj7q3vsewg0AS/view?usp=drivesdk
 
 # Lista-sin-duplicados
   Eliminar Elementos Duplicados en Prolog
@@ -28,8 +32,8 @@ Este proyecto contiene una implementación en Prolog del predicado `eliminar_dup
 ## Estructura del proyecto 
 
 lista-sin-duplicados/ 
- 
-│
+
+| 
 
 ├── README.md
 
