@@ -12,6 +12,19 @@ eliminar_duplicados([Cabeza|Cola], ListaSinDuplicados) :-
     ;   ListaSinDuplicados = [Cabeza|ListaTemp]
     ).
 
- 
+% Ejemplos de uso para testing
+:- begin_tests(eliminar_duplicados).
 
- 
+test(elimina_duplicados_lista_vacia) :-
+    eliminar_duplicados([], []).
+
+test(elimina_duplicados_sin_duplicados) :-
+    eliminar_duplicados([a,b,c], [a,b,c]).
+
+test(elimina_duplicados_con_duplicados) :-
+    eliminar_duplicados([a,b,c,a,d,b,e], [a,b,c,d,e]).
+
+test(mantiene_orden_relativo) :-
+    eliminar_duplicados([1,2,3,2,1], [1,2,3]).
+
+:- end_tests(eliminar_duplicados).
