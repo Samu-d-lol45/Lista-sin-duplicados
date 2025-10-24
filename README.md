@@ -24,7 +24,7 @@ Este proyecto contiene una implementación en Prolog del predicado `eliminar_dup
   
 ## Estructura del proyecto 
 
- lista-sin-duplicados/ 
+lista-sin-duplicados/ 
  
 │
 
